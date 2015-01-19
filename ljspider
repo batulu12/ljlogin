@@ -17,9 +17,10 @@ file.close()
 
 
 print 'Input Validation Code, pls'
+print 'hello'
 code = raw_input()
 
-encode = 'username=13321167362&password=hshy12&validateCode='+code+'&remember=1&dologin=µÇÂ¼'
+encode = 'username=13321167362&password=hshy12&validateCode='+code+'&remember=1&dologin=ï¿½ï¿½Â¼'
 req = urllib2.Request('http://beijing.homelink.com.cn/webregister/login.php', encode)
 html_src = opener.open(req).read()
 file = open('lj.html','wb')
